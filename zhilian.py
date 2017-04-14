@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-import re, requests, places_name_auto
+import re, requests, places_name
 from lxml import etree
 import pymysql, sys
 import logging, time, random
@@ -205,7 +205,7 @@ def get_page(url):
                 continue
 
 
-urls = places_name_auto.get_start_url()
+urls = places_name.get_start_url()
 global keyword
 for tp in urls:
     keyword = tp[0]
