@@ -19,7 +19,7 @@ count = 1
 def Connect():
     '''链接本地数据库，数据库名为zhilian'''
     host = "localhost"
-    dbName = "job_detail_auto"
+    dbName = "job_detail"
     user = "root"
     password = "root"
     db = pymysql.connect(host, user, password, dbName, charset='utf8')
