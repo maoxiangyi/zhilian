@@ -22,6 +22,11 @@
 1. 先设置好place_name.py文件中 **place_name** 和 **job_name**，你要爬取的城市名称和职位名称。
 2. zhilian.py中配置好数据库信息的函数。
 3. 最后运行zhilian.py文件即可。 
+4. 本爬虫使用python2.x进行编写，初次使用需要安装module。
+   ###### pip2 install pymysql ######
+   ###### pip2 install requests ######
+   ###### pip2 install lxml ######
+
 
 ## 三、问题----欢迎留言提出问题 ##
 
